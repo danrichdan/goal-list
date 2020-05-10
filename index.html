@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Goals</title>
+  </head>
+  <!--BEGIN PAGE CONTENT-->
+  <body>
+    <!--Page Header-->
+    <header class="bg-secondary text-white py-2 text-center mb-5">
+      <h2>Goals 2020</h2>
+    </header>
+    <!--Main Content-->
+    <main class="mb-5">
+      <!--FORM SECTION-->
+      <section class="add-goal-section mb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <!--Begin Card-->
+              <div class="card">
+                <div class="card-body">
+                  <!--Begin Form-->
+                  <form id="goal-form">
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Goal"
+                        id="goal"
+                      />
+                      <div class="input-group-append">
+                        <button
+                          class="btn btn-outline-secondary"
+                          type="submit"
+                          id="button-addon2"
+                        >
+                          Add Goal
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!--End Card-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--GOAL LIST SECTION-->
+      <section class="goal-list-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <!--Begin Goal Card-->
+              <div class="card">
+                <div class="card-header">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Filter Goals"
+                    id="filter"
+                  />
+                </div>
+                <div class="card-body">
+                  <!--List Goes Here-->
+                  <ul class="list-group"></ul>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-dark clear-goals">Clear Goals</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--END MAIN CONTENT-->
+    <footer class="text-center">
+      <p>Goal List</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
